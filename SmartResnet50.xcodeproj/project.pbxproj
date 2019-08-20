@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65CD03CC230A91900069F223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD03CB230A91900069F223 /* AppDelegate.swift */; };
+		65CD03CE230A91900069F223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD03CD230A91900069F223 /* ViewController.swift */; };
+		65CD03D1230A91900069F223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CD03CF230A91900069F223 /* Main.storyboard */; };
+		65CD03D4230A91900069F223 /* SmartResnet50.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65CD03D2230A91900069F223 /* SmartResnet50.xcdatamodeld */; };
+		65CD03D6230A91930069F223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CD03D5230A91930069F223 /* Assets.xcassets */; };
+		65CD03D9230A91930069F223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CD03D7230A91930069F223 /* LaunchScreen.storyboard */; };
+		65CD03E4230A91940069F223 /* SmartResnet50Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD03E3230A91940069F223 /* SmartResnet50Tests.swift */; };
+		65CD03EF230A91940069F223 /* SmartResnet50UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD03EE230A91940069F223 /* SmartResnet50UITests.swift */; };
+		65CD03FD230ABEDD0069F223 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 65CD03FC230ABEDD0069F223 /* Resnet50.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65CD03E0230A91940069F223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CD03C0230A91900069F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD03C7230A91900069F223;
+			remoteInfo = SmartResnet50;
+		};
+		65CD03EB230A91940069F223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CD03C0230A91900069F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CD03C7230A91900069F223;
+			remoteInfo = SmartResnet50;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65CD03C8230A91900069F223 /* SmartResnet50.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartResnet50.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD03CB230A91900069F223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65CD03CD230A91900069F223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65CD03D0230A91900069F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65CD03D3230A91900069F223 /* SmartResnet50.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartResnet50.xcdatamodel; sourceTree = "<group>"; };
+		65CD03D5230A91930069F223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65CD03D8230A91930069F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65CD03DA230A91930069F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD03DF230A91940069F223 /* SmartResnet50Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartResnet50Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD03E3230A91940069F223 /* SmartResnet50Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartResnet50Tests.swift; sourceTree = "<group>"; };
+		65CD03E5230A91940069F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD03EA230A91940069F223 /* SmartResnet50UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartResnet50UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD03EE230A91940069F223 /* SmartResnet50UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartResnet50UITests.swift; sourceTree = "<group>"; };
+		65CD03F0230A91940069F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD03FC230ABEDD0069F223 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65CD03C5230A91900069F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD03DC230A91940069F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD03E7230A91940069F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65CD03BF230A91900069F223 = {
+			isa = PBXGroup;
+			children = (
+				65CD03CA230A91900069F223 /* SmartResnet50 */,
+				65CD03E2230A91940069F223 /* SmartResnet50Tests */,
+				65CD03ED230A91940069F223 /* SmartResnet50UITests */,
+				65CD03C9230A91900069F223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65CD03C9230A91900069F223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65CD03C8230A91900069F223 /* SmartResnet50.app */,
+				65CD03DF230A91940069F223 /* SmartResnet50Tests.xctest */,
+				65CD03EA230A91940069F223 /* SmartResnet50UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65CD03CA230A91900069F223 /* SmartResnet50 */ = {
+			isa = PBXGroup;
+			children = (
+				65CD03CB230A91900069F223 /* AppDelegate.swift */,
+				65CD03CD230A91900069F223 /* ViewController.swift */,
+				65CD03FC230ABEDD0069F223 /* Resnet50.mlmodel */,
+				65CD03CF230A91900069F223 /* Main.storyboard */,
+				65CD03D5230A91930069F223 /* Assets.xcassets */,
+				65CD03D7230A91930069F223 /* LaunchScreen.storyboard */,
+				65CD03DA230A91930069F223 /* Info.plist */,
+				65CD03D2230A91900069F223 /* SmartResnet50.xcdatamodeld */,
+			);
+			path = SmartResnet50;
+			sourceTree = "<group>";
+		};
+		65CD03E2230A91940069F223 /* SmartResnet50Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65CD03E3230A91940069F223 /* SmartResnet50Tests.swift */,
+				65CD03E5230A91940069F223 /* Info.plist */,
+			);
+			path = SmartResnet50Tests;
+			sourceTree = "<group>";
+		};
+		65CD03ED230A91940069F223 /* SmartResnet50UITests */ = {
+			isa = PBXGroup;
+			children = (
+				65CD03EE230A91940069F223 /* SmartResnet50UITests.swift */,
+				65CD03F0230A91940069F223 /* Info.plist */,
+			);
+			path = SmartResnet50UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65CD03C7230A91900069F223 /* SmartResnet50 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD03F3230A91940069F223 /* Build configuration list for PBXNativeTarget "SmartResnet50" */;
+			buildPhases = (
+				65CD03C4230A91900069F223 /* Sources */,
+				65CD03C5230A91900069F223 /* Frameworks */,
+				65CD03C6230A91900069F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartResnet50;
+			productName = SmartResnet50;
+			productReference = 65CD03C8230A91900069F223 /* SmartResnet50.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65CD03DE230A91940069F223 /* SmartResnet50Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD03F6230A91940069F223 /* Build configuration list for PBXNativeTarget "SmartResnet50Tests" */;
+			buildPhases = (
+				65CD03DB230A91940069F223 /* Sources */,
+				65CD03DC230A91940069F223 /* Frameworks */,
+				65CD03DD230A91940069F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CD03E1230A91940069F223 /* PBXTargetDependency */,
+			);
+			name = SmartResnet50Tests;
+			productName = SmartResnet50Tests;
+			productReference = 65CD03DF230A91940069F223 /* SmartResnet50Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65CD03E9230A91940069F223 /* SmartResnet50UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CD03F9230A91940069F223 /* Build configuration list for PBXNativeTarget "SmartResnet50UITests" */;
+			buildPhases = (
+				65CD03E6230A91940069F223 /* Sources */,
+				65CD03E7230A91940069F223 /* Frameworks */,
+				65CD03E8230A91940069F223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CD03EC230A91940069F223 /* PBXTargetDependency */,
+			);
+			name = SmartResnet50UITests;
+			productName = SmartResnet50UITests;
+			productReference = 65CD03EA230A91940069F223 /* SmartResnet50UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65CD03C0230A91900069F223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = linwei;
+				TargetAttributes = {
+					65CD03C7230A91900069F223 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					65CD03DE230A91940069F223 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 65CD03C7230A91900069F223;
+					};
+					65CD03E9230A91940069F223 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 65CD03C7230A91900069F223;
+					};
+				};
+			};
+			buildConfigurationList = 65CD03C3230A91900069F223 /* Build configuration list for PBXProject "SmartResnet50" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65CD03BF230A91900069F223;
+			productRefGroup = 65CD03C9230A91900069F223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65CD03C7230A91900069F223 /* SmartResnet50 */,
+				65CD03DE230A91940069F223 /* SmartResnet50Tests */,
+				65CD03E9230A91940069F223 /* SmartResnet50UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65CD03C6230A91900069F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD03D9230A91930069F223 /* LaunchScreen.storyboard in Resources */,
+				65CD03D6230A91930069F223 /* Assets.xcassets in Resources */,
+				65CD03D1230A91900069F223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD03DD230A91940069F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD03E8230A91940069F223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65CD03C4230A91900069F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD03CE230A91900069F223 /* ViewController.swift in Sources */,
+				65CD03D4230A91900069F223 /* SmartResnet50.xcdatamodeld in Sources */,
+				65CD03FD230ABEDD0069F223 /* Resnet50.mlmodel in Sources */,
+				65CD03CC230A91900069F223 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD03DB230A91940069F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD03E4230A91940069F223 /* SmartResnet50Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD03E6230A91940069F223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD03EF230A91940069F223 /* SmartResnet50UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65CD03E1230A91940069F223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD03C7230A91900069F223 /* SmartResnet50 */;
+			targetProxy = 65CD03E0230A91940069F223 /* PBXContainerItemProxy */;
+		};
+		65CD03EC230A91940069F223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CD03C7230A91900069F223 /* SmartResnet50 */;
+			targetProxy = 65CD03EB230A91940069F223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65CD03CF230A91900069F223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CD03D0230A91900069F223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65CD03D7230A91930069F223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CD03D8230A91930069F223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65CD03F1230A91940069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65CD03F2230A91940069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65CD03F4230A91940069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartResnet50/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartResnet50;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65CD03F5230A91940069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartResnet50/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartResnet50;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65CD03F7230A91940069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartResnet50Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartResnet50Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartResnet50.app/SmartResnet50";
+			};
+			name = Debug;
+		};
+		65CD03F8230A91940069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartResnet50Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartResnet50Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartResnet50.app/SmartResnet50";
+			};
+			name = Release;
+		};
+		65CD03FA230A91940069F223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartResnet50UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartResnet50UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartResnet50;
+			};
+			name = Debug;
+		};
+		65CD03FB230A91940069F223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKCU8LV6EK;
+				INFOPLIST_FILE = SmartResnet50UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlinwei.SmartResnet50UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartResnet50;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65CD03C3230A91900069F223 /* Build configuration list for PBXProject "SmartResnet50" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD03F1230A91940069F223 /* Debug */,
+				65CD03F2230A91940069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CD03F3230A91940069F223 /* Build configuration list for PBXNativeTarget "SmartResnet50" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD03F4230A91940069F223 /* Debug */,
+				65CD03F5230A91940069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CD03F6230A91940069F223 /* Build configuration list for PBXNativeTarget "SmartResnet50Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD03F7230A91940069F223 /* Debug */,
+				65CD03F8230A91940069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CD03F9230A91940069F223 /* Build configuration list for PBXNativeTarget "SmartResnet50UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CD03FA230A91940069F223 /* Debug */,
+				65CD03FB230A91940069F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65CD03D2230A91900069F223 /* SmartResnet50.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65CD03D3230A91900069F223 /* SmartResnet50.xcdatamodel */,
+			);
+			currentVersion = 65CD03D3230A91900069F223 /* SmartResnet50.xcdatamodel */;
+			path = SmartResnet50.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65CD03C0230A91900069F223 /* Project object */;
+}
